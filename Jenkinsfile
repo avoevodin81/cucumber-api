@@ -34,7 +34,7 @@ pipeline {
 
     post {
         always {
-            cucumber '**/*.json'
+            cucumber '**/*.html'
         }
     }
 }
